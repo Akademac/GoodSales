@@ -5,7 +5,6 @@ const Module = () => {
   let state = useSelector((state) => state.moduleShowHide);
   let dispatch = useDispatch();
   let jsxElement;
-  console.log(state.visibility);
   let hideModule = () => {
     dispatch(moduleShowHide({ visibility: false, type: "" }));
   };

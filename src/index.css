@@ -22,6 +22,11 @@ body {
 
 /* Main Div */
 
+.home {
+  height: auto;
+  position: relative;
+}
+
 .main__wrapper {
   width: 100%;
   height: calc(100vh - 3rem);

@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 const AboutNavBtn = ({miniFontSize}) => {
 
   return (
-    <li className='navLis' style={{fontSize: miniFontSize}}><Link to='/about'>About</Link></li>
+    <li className='navLis' style={{fontSize: miniFontSize}}><Link to='/GoodSales/about'>About</Link></li>
   )
 }
 

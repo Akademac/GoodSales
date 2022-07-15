@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import Home from "./components/Home";
 import Module from "./components/module/Module";
 import MiniNav from './components/MiniNav';
+import Products from "./components/Products";
 function App() {
   return (
     <div className="App" basename='/GoodSales'>
@@ -12,6 +13,7 @@ function App() {
         <Header />
         <Routes>
           <Route path="/GoodSales" element={<Home />} />
+          <Route path="/GoodSales/products" element={<Products />} />
         </Routes>
       </Router>
     </div>

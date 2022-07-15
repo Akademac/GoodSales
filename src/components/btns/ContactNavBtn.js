@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 
 const ContactNavBtn = ({miniFontSize}) => {
   return (
-    <li className='navLis' style={{fontSize: miniFontSize}}><Link to='/contact'>Contact</Link></li>
+    <li className='navLis' style={{fontSize: miniFontSize}}><Link to='/GoodSales/contact'>Contact</Link></li>
   )
 }
 
