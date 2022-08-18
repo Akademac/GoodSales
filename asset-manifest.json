@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/GoodSales/static/css/main.fd77bd9b.css",
+    "main.js": "/GoodSales/static/js/main.f8165058.js",
+    "static/media/banner_1.png": "/GoodSales/static/media/banner_1.1b75145db426cf04d166.png",
+    "static/media/mini_nav.png": "/GoodSales/static/media/mini_nav.33c99a42af40f6847605.png",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/GoodSales/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/main.jpg": "/GoodSales/static/media/main.8f4abb5b20997673a6a0.jpg",
+    "static/media/main_him.jpg": "/GoodSales/static/media/main_him.925c011ae9eccc29662f.jpg",
+    "static/media/fontawesome-webfont.eot": "/GoodSales/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/GoodSales/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/GoodSales/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/GoodSales/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "index.html": "/GoodSales/index.html",
+    "main.fd77bd9b.css.map": "/GoodSales/static/css/main.fd77bd9b.css.map",
+    "main.f8165058.js.map": "/GoodSales/static/js/main.f8165058.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fd77bd9b.css",
+    "static/js/main.f8165058.js"
+  ]
+}
