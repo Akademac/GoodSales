@@ -1,23 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Header from "./components/Header";
+import Home from "./components/Home";
+import Module from "./components/module/Module";
+import MiniNav from './components/MiniNav';
+import Products from "./components/Products";
+import Footer from "./components/Footer";
+import SingleProduct from "./components/SingleProduct";
+import Cart from "./components/Cart";
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App" basename='/GoodSales'>
+      <Router>
+        <Module />
+        <MiniNav />
+        <Header />
+        <Routes>
+          <Route path="/GoodSales" element={<Home />} />
+          <Route path="/GoodSales/products" element={<Products />} />
+          <Route path='/GoodSales/product/:id' element={<SingleProduct />} />
+          <Route path='/GoodSales/cart' element={<Cart />} />
+        </Routes>
+        <Footer />
+      </Router>
     </div>
   );
 }
