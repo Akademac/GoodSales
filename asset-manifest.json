@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/GoodSales/static/css/main.fd77bd9b.css",
-    "main.js": "/GoodSales/static/js/main.f8165058.js",
+    "main.css": "/GoodSales/static/css/main.b86316e8.css",
+    "main.js": "/GoodSales/static/js/main.c6f8bca1.js",
     "static/media/banner_1.png": "/GoodSales/static/media/banner_1.1b75145db426cf04d166.png",
     "static/media/mini_nav.png": "/GoodSales/static/media/mini_nav.33c99a42af40f6847605.png",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/GoodSales/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
@@ -12,11 +12,11 @@
     "static/media/fontawesome-webfont.woff?v=4.7.0": "/GoodSales/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/GoodSales/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "index.html": "/GoodSales/index.html",
-    "main.fd77bd9b.css.map": "/GoodSales/static/css/main.fd77bd9b.css.map",
-    "main.f8165058.js.map": "/GoodSales/static/js/main.f8165058.js.map"
+    "main.b86316e8.css.map": "/GoodSales/static/css/main.b86316e8.css.map",
+    "main.c6f8bca1.js.map": "/GoodSales/static/js/main.c6f8bca1.js.map"
   },
   "entrypoints": [
-    "static/css/main.fd77bd9b.css",
-    "static/js/main.f8165058.js"
+    "static/css/main.b86316e8.css",
+    "static/js/main.c6f8bca1.js"
   ]
 }
