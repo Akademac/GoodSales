@@ -29,7 +29,7 @@
 }
 
 .module_div > p:first-of-type {
-  font-size: .9rem;
+  font-size: 0.9rem;
   color: rgb(223, 223, 223);
   margin-top: 1rem;
 }
@@ -52,7 +52,7 @@
 
 .module_or {
   color: white;
-  margin-top: .1rem;
+  margin-top: 0.1rem;
 }
 
 .module_div form {
@@ -64,23 +64,22 @@
 
 .module_div form > input {
   display: block;
-  margin: .5rem;
+  margin: 0.5rem;
   border-radius: 20px;
   border: none;
-  padding: .5rem;
+  padding: 0.5rem;
 }
 
 .module_div form > button {
-  background-color: rgba(0,212,255,1);
+  background-color: rgba(0, 212, 255, 1);
   color: white;
   border-radius: 20px;
   border: none;
-  padding: .5rem;
+  padding: 0.5rem;
   margin: 1rem auto;
   width: 10rem;
   cursor: pointer;
   transition: 1s all;
-
 }
 
 .module_div form > button:hover {
@@ -96,19 +95,18 @@
   flex-direction: column;
 }
 
-
 .module_div > p:last-of-type {
-  font-size: .9rem;
+  font-size: 0.9rem;
   color: rgb(223, 223, 223);
 }
 
 .module_div > p:last-of-type > b {
   cursor: pointer;
-  padding-left: .4rem;
+  padding-left: 0.4rem;
 }
 
 .module_div > span {
-  background-color: rgba(236,105,189,0.6306897759103641);
+  background-color: rgba(236, 105, 189, 0.6306897759103641);
   color: white;
   border-radius: 20px;
   border: none;
@@ -126,6 +124,52 @@
 }
 
 .signInSignUpbtn:hover {
-  color: rgba(236,105,189,0.6306897759103641);
+  color: rgba(236, 105, 189, 0.6306897759103641);
   transition: 1s all;
 }
+
+/* Meida Screen */
+
+@media screen and (max-width: 450px) {
+  .module_div {
+    width: 20rem;
+    height: 70%;
+  }
+
+  .module_div > h2 {
+    font-size: 1.5rem;
+  }
+
+  .module_div > p:first-of-type {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .module_div {
+    width: 16rem;
+  }
+
+  .module_div > h2 {
+    font-size: 1.2rem;
+  }
+
+  .module_div > p:first-of-type {
+    font-size: 0.7rem;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .module_div {
+    width: 15rem;
+  }
+
+  .module_div > h2 {
+    font-size: 1rem;
+  }
+
+  .module_div > p:first-of-type {
+    font-size: 0.6rem;
+  }
+}
+

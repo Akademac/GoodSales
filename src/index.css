@@ -103,12 +103,11 @@ body, html {
   position: absolute;
   right: 0rem;
   height: calc(100vh - 3rem);
-  margin-top: 3rem;
   background: url('../public/assets/images/mini_nav.png');
   background-position: center;
   background-size: cover;
   transition: 1s all;
-  display: none;
+  display: grid;
   place-items: center;
   border-radius: 5px;
   z-index: 3000;

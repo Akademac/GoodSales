@@ -6,6 +6,7 @@ import { useEffect, useState } from "react";
 import { getData } from "../redux/actions/index";
 import Skeleton from 'react-loading-skeleton'
 import 'react-loading-skeleton/dist/skeleton.css'
+import MiniNav from "./MiniNav";
 
 const Products = () => {
   let dispatch = useDispatch();
@@ -99,6 +100,7 @@ const Products = () => {
   }
   return (
     <div className="products__div">
+      <MiniNav />
       <FilterProducts productsNum={allProducts.length === 0 ? '...' : allProducts.length} />
       {jsxElement}
     </div>

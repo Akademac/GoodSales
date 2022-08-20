@@ -17,7 +17,7 @@ const MiniNav = () => {
   return (
     <div
       className="mini__nav"
-      style={state ? { width: "100%", display: 'grid' } : { width: "0%", display: 'none' }}
+      style={state ? { width: "100%"} : { width: "0%"}}
       onClick={handleMiniNav}
     >
       <HomeNavBtn miniFontSize='1.5rem' />

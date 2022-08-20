@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useDispatch } from 'react-redux';
 import { changeHeaderColor } from '../redux/actions';
+import MiniNav from './MiniNav'
 const MainDiv = () => {
   let dispatch = useDispatch();
   let [changeMainDivs, setChangeMainDivs] = useState(true);
@@ -28,6 +29,7 @@ const MainDiv = () => {
         </div>
         <p>for him...</p>
       </div>
+      <MiniNav />
     </div>
   )
 }

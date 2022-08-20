@@ -6,6 +6,7 @@ import ProductSize from "./ProductSize";
 import { useEffect, useState } from "react";
 import "./cart.css";
 import ProductQty from "./ProductQty";
+import MiniNav from "./MiniNav";
 
 const Cart = () => {
   const productNum = useSelector((state) => state.addToCartR); 
@@ -24,7 +25,7 @@ const Cart = () => {
     }
   }, [products]);
 
-  let arr = []; // ovo si hteo da bude cart sa quantity
+  let arr = []; 
 
   if (products && !products.fetching) {
     if (pickedData.length !== 0) {
@@ -32,12 +33,10 @@ const Cart = () => {
         let justPickedArrayWithOnlyOneItem = pickedData.filter((x) => x.key === cartItem.key);
         let justPicked = justPickedArrayWithOnlyOneItem[0];
         console.log('justPicked', justPicked);
-        arr.push({ ...justPicked, ...cartItem }); // zbir dva objekta, jedan je productitem a drugi je cartItem
+        arr.push({ ...justPicked, ...cartItem }); 
       });
     }
   }
-
-  // const arr = productNum; // sada koristimo cart u kojem su objekti koji vec imaju kolicine...
 
   let jsxElement;
   let arrTotalPrices = [];
@@ -116,6 +115,7 @@ const Cart = () => {
 
   return (
     <div className="cart__div">
+      <MiniNav />
       <div>
         <div className="card__headings">
           <h3>Products : {arr.length} items.</h3>

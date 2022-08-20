@@ -7,6 +7,7 @@ import Skeleton from "react-loading-skeleton";
 import "react-loading-skeleton/dist/skeleton.css";
 import "./products.css";
 import AddToCart from "./btns/AddToCart";
+import MiniNav from "./MiniNav";
 const SingleProduct = () => {
   let { id } = useParams();
   let dispatch = useDispatch();
@@ -64,7 +65,10 @@ const SingleProduct = () => {
   }
 
   return (
-    <div className="singleProduct__wrapper">{jsxElementFirst}</div>
+    <div className="singleProduct__wrapper">
+      <MiniNav />  
+      {jsxElementFirst}
+    </div>
   )
 
   

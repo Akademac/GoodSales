@@ -1,0 +1,130 @@
+.about__wrapper {
+  width: 100%;
+  min-height: calc(100vh - 10rem);
+  padding-top: 4rem;
+  background: rgba(43, 39, 42, 0.631) 30%;
+  position: relative;
+}
+
+.about__div {
+  width: 80%;
+  height: 40rem;
+  margin: 0rem auto;
+  border: 1px solid rgba(236, 105, 189, 1);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.aboutDiv__left,
+.aboutDiv__right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.aboutDiv__left > img {
+  max-width: 90%;
+  max-height: 90%;
+}
+
+.aboutDiv__right {
+  color: white;
+  padding: 1rem;
+}
+
+.about__txt > h3 {
+  margin: 2rem 0rem;
+  font-size: 2rem;
+  color: rgba(0, 212, 255, 1);
+}
+
+.about__txt {
+  margin-bottom: 3rem;
+}
+
+/* Media Queris */
+
+@media screen and (max-width: 1400px) {
+  .about__wrapper {
+    padding-bottom: 6rem;
+  }
+
+}
+
+@media screen and (max-width: 850px) {
+  .about__wrapper {
+    padding-bottom: 6rem;
+  }
+
+  .about__div {
+    width: 80%;
+    height: 60rem;
+    margin: 0rem auto;
+    grid-template-columns: none;
+    grid-template-rows: 50% 50%;
+    border: none;
+  }
+
+  .aboutDiv__right {
+    text-align: center;
+    align-items: flex-start;
+    margin-top: -5rem;
+  }
+  
+}
+
+@media screen and (max-width: 500px) {
+  .aboutDiv__left > img {
+    max-width: 100%;
+    max-height: 100%;
+    margin-top: -4rem;
+  }
+
+  .aboutDiv__right {
+    margin-top: -7rem;
+  }
+}
+
+
+@media screen and (max-width: 400px) {
+  .aboutDiv__left > img {
+    max-width: 100%;
+    max-height: 100%;
+    margin-top: -10rem;
+  }
+
+  .aboutDiv__right {
+    margin-top: -12rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+
+  .about__wrapper {
+    padding-bottom: 0rem;
+  }
+
+  .aboutDiv__left > img {
+    margin-top: -14rem;
+  }
+
+  .aboutDiv__right {
+    margin-top: -12rem;
+  }
+
+  .about__txt {
+    font-size: .9rem;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .aboutDiv__left > img {
+    margin-top: -14rem;
+  }
+
+  .aboutDiv__right {
+    margin-top: -15rem;
+  }
+
+}
+

@@ -52,7 +52,7 @@
 
 .mainNav_ul {
   display: inline-block;
-  margin-left: 9rem;
+  margin-left: 15.53rem;
 }
 
 .navLis {
@@ -98,11 +98,16 @@ a:hover {
 
 .burger__menu {
   display: none;
-} 
+}
 
 /* Media Queris */
 
 @media screen and (max-width: 1000px) {
+
+  .main_logo {
+    margin-left: .5rem;
+  }
+
   .mainNav_ul {
     display: none;
   }
@@ -120,4 +125,3 @@ a:hover {
     color: white;
   }
 }
-
